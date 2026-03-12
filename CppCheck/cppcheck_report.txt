@@ -1,0 +1,56 @@
+sources/contextmenu.cpp:334:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:340:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:346:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:352:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:382:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:388:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/contextmenu.cpp:395:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) m_parent->getParent();
+                      ^
+sources/filesystemmodel.cpp:99:34: style: C-style pointer casting [cstyleCast]
+            QMessageBox::warning((QWidget*)m_parent, "Warning", "Access denied - no permission to write!");
+                                 ^
+sources/filesystemmodel.cpp:113:51: style: C-style pointer casting [cstyleCast]
+                overwrite = QMessageBox::question((QWidget*)m_parent, "Overwrite",
+                                                  ^
+sources/filesystemmodel.cpp:157:30: style: C-style pointer casting [cstyleCast]
+        QMessageBox::warning((QWidget*)m_parent, "Error", "Failed to move file " + file->fileName());
+                             ^
+sources/filesystemmodel.cpp:170:34: style: C-style pointer casting [cstyleCast]
+            QMessageBox::warning((QWidget*)m_parent, "Error", "Failed to copy directory " + fi.absoluteFilePath());
+                                 ^
+sources/filesystemmodel.cpp:176:30: style: C-style pointer casting [cstyleCast]
+        QMessageBox::warning((QWidget*)m_parent, "Error", "Failed to copy file " + file->fileName());
+                             ^
+sources/filesystemmodel.cpp:186:30: style: C-style pointer casting [cstyleCast]
+        QMessageBox::warning((QWidget*)m_parent, "Error", "Overwrite: failed to remove file " + path);
+                             ^
+sources/preview.cpp:66:9: style: The scope of the variable 'm' can be reduced. [variableScope]
+    int m;
+        ^
+sources/preview.cpp:107:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+    int n;
+        ^
+sources/preview.cpp:69:44: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+    for(i=extMap2.begin();i!=extMap2.end();i++){
+                                           ^
+sources/preview.cpp:83:42: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+    for(i=extMap.begin();i!=extMap.end();i++){
+                                         ^
+sources/window.cpp:178:23: style: C-style pointer casting [cstyleCast]
+    auto mainWindow = (MainWindow *) getParent();
+                      ^
+nofile:0:0: information: Active checkers: 172/592 (use --checkers-report=<filename> to see details) [checkersReport]
+
