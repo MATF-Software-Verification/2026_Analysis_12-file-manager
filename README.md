@@ -31,7 +31,7 @@ Nakon toga mozemo pokrenuti skript build.sh koji ce nam izgenerisati izvrsni faj
 - **CLazy**
 
   ## Clang-Tidy
-  - **sudo apt install clang-tidy**
+  - **sudo apt install clang-tools**
   - **cd Clang-Tidy**
   - **chmod +x clang_tidy_script.sh**
   - **./clang_tidy_script.sh**
