@@ -7,7 +7,7 @@ Ime i prezime: Lazar Dačković
 Broj indeksa: 1037/25
 
 ## Opis projekta
-12-file-manager je aplikacija implementirana u programskom jeziku C++ uz korišćenje Qt framework-a. 
+12-file-manager je aplikacija implementirana u programskom jeziku C++ uz korišćenje Qt framework-a. Sadrži dva potprozora koji listaju sadržaje direktorijuma. Možemo da se krećemo kroz direktorijume i da manipulišemo fajlovima. Da ih kopiramo, premeštamo, preimenujemo, menjamo prava pristupa, kreiramo foldere, zipujemo i slično. 
 
 Originalan projekat dostupan je na adresi:
 https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2022-2023/12-file-manager
