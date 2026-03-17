@@ -59,3 +59,9 @@ Nakon toga mozemo pokrenuti skriptu build.sh koji ce nam izgenerisati izvrsni fa
    - **chmod +x heaptrack.sh**
    - **./heaptrack.sh**
 
+  ## CLazy
+  - **sudo apt install clazy**
+  - **cd CLazy**
+  - **chmod +x Clazy.sh**
+  - **./CLazy.sh**
+
