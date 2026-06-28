@@ -33,6 +33,7 @@ Nakon toga mozemo pokrenuti skriptu build.sh koji ce nam izgenerisati izvrsni fa
 - **Valgrind**
 - **Heaptrack**
 - **CLazy**
+- **Flawfinder**
 
   ## Clang-Tidy
   - **sudo apt install clang-tools**
@@ -59,9 +60,26 @@ Nakon toga mozemo pokrenuti skriptu build.sh koji ce nam izgenerisati izvrsni fa
    - **chmod +x heaptrack.sh**
    - **./heaptrack.sh**
 
-  ## CLazy
+  ## Clazy
   - **sudo apt install clazy**
   - **cd CLazy**
   - **chmod +x Clazy.sh**
   - **./CLazy.sh**
+
+  ## Flawfinder
+  - **sudo apr instal flawfinder**
+  - **cd Flawfinder**
+  - **chmod +x flawfinder.sh**
+  - **./flawfinder.sh**
+ 
+  ## Zaklučak
+  Primena različitih alata za analizu koda omogućila je sveobuhvatnu proveru stabilnosti i efikasnosti aplikacije. Statičkom analizom pomoću Cppcheck, Clang-Tidy i Clazy detektovani su
+  zastareli, neefikasni i manje bezbedni koncepti i mogućnosti optimizacije koda. Često neprosledjivanje argumenata preko reference, što dovodi do bespotrebnog kopiranja velikih
+  objekata
+
+  Dinamičkom analizom pomoću alata Valgrind i Heaptrack su otkriveni problemi sa curenjem memorije, uglavnom je izostavljano **delete** za objekte koji su kreirani na hipu.
+
+  Detaljniji izveštaj sa preporukama za izmenu koda može se pronaći u fajlu **ProjectAnalysisReport.pdf**
+  
+  
 
